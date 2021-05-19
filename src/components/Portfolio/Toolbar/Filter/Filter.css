@@ -1,0 +1,29 @@
+.filter {
+  display: inline-block;
+  height: auto;
+  margin-right: 5px;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  color: #555;
+  line-height: normal;
+  font-weight: normal;
+  text-decoration: none;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #555;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.filter:hover {
+  text-decoration: none;
+}
+
+.filter:focus {
+  outline: none;
+}
+
+.filter.active {
+  color: white;
+  background: #555;
+}
