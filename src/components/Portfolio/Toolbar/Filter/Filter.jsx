@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import './Filter.css';
 
 export default function Filter({filter, selected, onSelectFilter}) {
-  const isActive = selected === filter && 'active';
+  const isActive = selected === filter ? 'active' : '';
 
   return (
     <button className={`filter ${isActive}`} onClick={() => onSelectFilter(filter)}>{filter}</button>
